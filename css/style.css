@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 200vh;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 1000;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #D6490B;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+
+
+}
+header .ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sticky{
+    padding: 5px 100px;
+   
+    
+}
+header ul li{
+    position: relative;
+    display: inline-flex;
+    padding: 0 10px;
+    list-style: none;
+
+}
+header ul li a{
+    position: relative;
+    margin: 10 15px;
+    text-decoration: none;
+    color: #F59D18;
+    letter-spacing: 2px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+.text{
+    position: sticky;
+    width: 600px;
+    height: 200px;
+    line-height: 42px;
+    color: #D6490B;
+    margin-top:-790px;
+    margin-left: 100px;
+    z-index: 10000;
+}
+.text h1{
+    width: 550px;
+    font-size: 36px;
+    text-shadow: 2px 2px 2px black;
+}
+.text h3{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 42px;
+    
+}
+.ajudar{
+    margin: 10px 40px;
+    width: 400px;
+    height: 50px;
+    background-color: #D6490B;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    
+}
+.ajudar:hover{
+    background-color: transparent;
+    border: 4px solid #D6490B;
+    color: #D6490B;
+    cursor: pointer;
+}
+
+
+.sublinhado{
+    border-bottom: 4px solid #D6490B;
+}
+.sticky .sublinhado{
+    border-bottom: 4px solid #8718F5;
+}
+.sticky .sublinhado:hover{
+    color: #D6490B;
+    border-bottom: 4px solid #D6490B;
+}
+header ul li a:hover{
+    color: #D6490B;
+    cursor: pointer;
+    border-bottom: 4px solid #D6490B;
+}
+.sublinhado :hover{
+    color:#D6490B;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+header.sticky .logo,
+header.sticky ul li a
+{
+    color: #8718F5;
+}
+header.sticky ul li a:hover
+{
+    color: #D6490B;
+    
+}
+
+
