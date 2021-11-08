@@ -192,3 +192,24 @@ footer{
     height: 40vh;
     background-color: #587330;
 }
+
+.redes-sociais{
+   display: flex;
+   padding-top: 160px;
+   margin-right: 190px;
+   justify-content: right;
+}
+#facebook , #twitter, #youtube, #instagram{
+    background-color: transparent;
+    border-radius: 7px;
+    width: 3vw;
+    height: 6vh;
+    margin-left: 10px;
+    transition: 0.6s;
+}
+#facebook:hover , #twitter:hover, #youtube:hover, #instagram:hover{
+   cursor: pointer;
+   box-shadow: inset 2px 4px 15px black;
+   background-color: #3d3d3d1f;
+}
+
