@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+@media (min-width:2560px) {
+    header{
+        width: 100vw;
+        background-color: #587330;
+    }
+    .banner{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        margin-top: 20vh;
+        text-align: center;
+       
+    }
+    header ul li a{
+        position: relative;
+        margin: 10 15px;
+        text-decoration: none;
+        color: #F24405;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    .text{
+        position: sticky;
+        width: 600px;
+        height: 200px;
+        line-height: 42px;
+        color: #F24405;
+        margin-top:-690px;
+        margin-left: 360px;
+        z-index: 10000;
+    }
+    .information{
+        margin-top: -600px;
+    }
+}
