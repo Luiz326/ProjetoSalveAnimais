@@ -1,4 +1,244 @@
+@media screen and (min-width: 768px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        padding: 40px 100px;
+        z-index: 1000;
+    }
+    header .logo{
+        position: relative;
+        font-weight: 700;
+        color: #F24405;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+    
+    
+    }
+    header .ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sticky{
+        padding: 5px 100px;
+        background-color: #587330;
+        
+            
+    }
+    header.sticky .logo{
+        color:#D9CB04;
+    }
+    header.sticky ul li a{
+        color:#D9CB04;
+    }
+    .sticky  .sublinhado{
+        border-bottom: 4px solid #D9CB04;
+    }
+    header ul li{
+        position: relative;
+        display: inline-flex;
+        padding: 0 10px;
+        list-style: none;
+    
+    }
+    header ul li a{
+        position: relative;
+        margin: 10 15px;
+        text-decoration: none;
+        color: #F24405;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: 0.5s;
+    }
+    .text{
+        position: sticky;
+        width: 600px;
+        height: 200px;
+        line-height: 42px;
+        color: #F24405;
+        margin-top:-290px;
+        margin-left: 100px;
+        z-index: 10000;
+    }
+    
+    .text h1{
+        width: 350px;
+        font-size: 18px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .text h3{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-style: italic;
+        font-size: 14px;
+        line-height: 32px;
+         margin-left: -300px;
+        
+    }
+    .ajudar{
+        margin: 10px 40px;
+        width: 200px;
+        height: 25px;
+        background-color: #F24405;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+        
+    }
+    .container-divs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 200px;
+        height: 100vh;
+    }
+    #div1{
+       
+        width: 500px;
+        height: 600px;
+        word-wrap: break-word;
+        padding: 10px 40px;
+    }
+    #div1 h1, h3, h4{
+        text-align: center;
+    }
+    #div1 h1{
+        font-style: italic;
+        font-size: 32px;
+        color: #F24405;
+    }
+    #div1 h3{
+        color:#3D3D3D;
+        line-height: 28px;
+        
+    }
+    #div1 h4{
+        color: #F24405;
+        font-style: italic;
+    }
+    #div1 p{
+        line-height: 21px;
+        margin-left: 15px;
+    }
+    .p-container{
+        border-left: 4px solid #F24405;
+        
+    }
+    #div2{
+        background-image: url("../image/felinos-selvagens.png");
+        box-shadow: 30px 30px 2px #D9AB73;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 25vw;
+        height: 30vh;
+        margin-right: 20px;
+    }
+    #facebook , #twitter, #youtube, #instagram{
+        background-color: transparent;
+        border-radius: 7px;
+        width: 8vw;
+        height: 10vh;
+        margin-left: 10px;
+        transition: 0.6s;
+    }
+    #facebook:hover , #twitter:hover, #youtube:hover, #instagram:hover{
+       cursor: pointer;
+       box-shadow: inset 2px 4px 15px black;
+       background-color: #3d3d3d1f;
+    }
+    .footer-content{
+        padding-top: 70px;
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+}
+
+
+
 @media screen and (min-width: 1044px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        padding: 40px 100px;
+        z-index: 1000;
+    }
+    header .logo{
+        position: relative;
+        font-weight: 700;
+        color: #F24405;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+    
+    
+    }
+    header .ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sticky{
+        padding: 5px 100px;
+        background-color: #587330;
+        
+            
+    }
+    header.sticky .logo{
+        color:#D9CB04;
+    }
+    header.sticky ul li a{
+        color:#D9CB04;
+    }
+    .sticky  .sublinhado{
+        border-bottom: 4px solid #D9CB04;
+    }
+    header ul li{
+        position: relative;
+        display: inline-flex;
+        padding: 0 10px;
+        list-style: none;
+    
+    }
+    header ul li a{
+        position: relative;
+        margin: 10 15px;
+        text-decoration: none;
+        color: #F24405;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: 0.5s;
+    }
     .text{
         position: sticky;
         width: 600px;
@@ -38,6 +278,54 @@
         transition: 0.5s;
         
     }
+    .container-divs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 200px;
+        height: 100vh;
+    }
+    #div1{
+       
+        width: 700px;
+        height: 600px;
+        word-wrap: break-word;
+        padding: 10px 40px;
+    }
+    #div1 h1, h3, h4{
+        text-align: center;
+    }
+    #div1 h1{
+        font-style: italic;
+        font-size: 32px;
+        color: #F24405;
+    }
+    #div1 h3{
+        color:#3D3D3D;
+        line-height: 28px;
+        
+    }
+    #div1 h4{
+        color: #F24405;
+        font-style: italic;
+    }
+    #div1 p{
+        line-height: 21px;
+        margin-left: 15px;
+    }
+    .p-container{
+        border-left: 4px solid #F24405;
+        
+    }
+    #div2{
+        background-image: url("../image/felinos-selvagens.png");
+       box-shadow: 80px 80px 2px #D9AB73;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40vw;
+        height: 60vh;
+    }
     #facebook , #twitter, #youtube, #instagram{
         background-color: transparent;
         border-radius: 7px;
@@ -61,6 +349,69 @@
 
 }
 @media screen and (min-width: 1440px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.6s;
+        padding: 40px 100px;
+        z-index: 1000;
+    }
+    header .logo{
+        position: relative;
+        font-weight: 700;
+        color: #F24405;
+        text-decoration: none;
+        font-size: 2em;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        transition: 0.6s;
+    
+    
+    }
+    header .ul{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .sticky{
+        padding: 5px 100px;
+        background-color: #587330;
+        
+            
+    }
+    header.sticky .logo{
+        color:#D9CB04;
+    }
+    header.sticky ul li a{
+        color:#D9CB04;
+    }
+    .sticky  .sublinhado{
+        border-bottom: 4px solid #D9CB04;
+    }
+    header ul li{
+        position: relative;
+        display: inline-flex;
+        padding: 0 10px;
+        list-style: none;
+    
+    }
+    header ul li a{
+        position: relative;
+        margin: 10 15px;
+        text-decoration: none;
+        color: #F24405;
+        letter-spacing: 2px;
+        font-weight: 600;
+        font-size: 16px;
+        transition: 0.5s;
+    }
     .text{
         position: sticky;
         width: 600px;
@@ -99,6 +450,54 @@
         outline: none;
         transition: 0.5s;
         
+    }
+    .container-divs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 200px;
+        height: 100vh;
+    }
+    #div1{
+       
+        width: 700px;
+        height: 600px;
+        word-wrap: break-word;
+        padding: 10px 40px;
+    }
+    #div1 h1, h3, h4{
+        text-align: center;
+    }
+    #div1 h1{
+        font-style: italic;
+        font-size: 32px;
+        color: #F24405;
+    }
+    #div1 h3{
+        color:#3D3D3D;
+        line-height: 28px;
+        
+    }
+    #div1 h4{
+        color: #F24405;
+        font-style: italic;
+    }
+    #div1 p{
+        line-height: 21px;
+        margin-left: 15px;
+    }
+    .p-container{
+        border-left: 4px solid #F24405;
+        
+    }
+    #div2{
+        background-image: url("../image/felinos-selvagens.png");
+       box-shadow: 80px 80px 2px #D9AB73;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 40vw;
+        height: 60vh;
     }
     #facebook , #twitter, #youtube, #instagram{
         background-color: transparent;
