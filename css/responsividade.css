@@ -5,9 +5,38 @@
         height: 200px;
         line-height: 42px;
         color: #F24405;
-        margin-top:-490px;
+        margin-top:-590px;
         margin-left: 100px;
         z-index: 10000;
+    }
+    .text h1{
+        width: 450px;
+        font-size: 28px;
+        text-shadow: 2px 2px 2px black;
+        
+    }
+    .text h3{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-style: italic;
+        font-size: 18px;
+        line-height: 42px;
+        margin-left: -210px;
+        
+    }
+    .ajudar{
+        margin: 10px 40px;
+        width: 280px;
+        height: 40px;
+        background-color: #F24405;
+        color: white;
+        font-size: 14px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+        
     }
     #facebook , #twitter, #youtube, #instagram{
         background-color: transparent;
@@ -41,6 +70,35 @@
         margin-top:-790px;
         margin-left: 100px;
         z-index: 10000;
+    }
+    
+    .text h1{
+        width: 550px;
+        font-size: 36px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .text h3{
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        font-style: italic;
+        font-size: 24px;
+        line-height: 42px;
+         margin-left: -80px;
+        
+    }
+    .ajudar{
+        margin: 10px 40px;
+        width: 400px;
+        height: 50px;
+        background-color: #F24405;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        border: none;
+        outline: none;
+        transition: 0.5s;
+        
     }
     #facebook , #twitter, #youtube, #instagram{
         background-color: transparent;
