@@ -133,6 +133,9 @@ li.sublinhado:hover{
     height: 100vh;
    
 }
+.banner video{
+    max-width: 100%;
+}
 
 .information{
     background-color: white;
